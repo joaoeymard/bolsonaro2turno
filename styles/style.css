@@ -42,21 +42,24 @@ noscript > div {
 .menu-principal .btnFull {
   background-color: #333333;
   border: 0;
-  color: #fff;
-  padding: 50px;
+  color: #d3d3d3;
+  padding: 20px;
   margin-bottom: 15px;
   cursor: pointer;
+  border-radius: 20px;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .menu-principal .btnFull img {
-  width: 86px;
-  margin-right: 1.5rem;
+  width: 120px;
+  margin-right: 2rem;
+  border-radius: 10px;
 }
 .menu-principal .btnFull > div {
-  text-align: left;
+  width: 100%;
+  text-align: center;
 }
 .menu-principal .btnFull p {
   margin: 0;
@@ -65,6 +68,8 @@ noscript > div {
   font-size: 2rem;
 }
 .menu-principal .btnCredito {
+  color: #aaaaaa;
+
   padding: 16px;
   flex-direction: column;
   justify-content: center;
