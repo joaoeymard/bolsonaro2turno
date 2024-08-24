@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="./styles/style.css?v=4">
+  <link rel="stylesheet" href="./styles/style.css">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169842087-3"></script>
@@ -41,6 +41,7 @@
     gtag('config', 'UA-169842087-3');
   </script>
 
+  <script src="./dbMolduras.js"></script>
 </head>
 
 <body>
@@ -52,15 +53,15 @@
 
     <section id="menu" class="menu-principal">
       <p class="label">Escolha uma opção:</p>
-      <button class="btn btnFull btnActions" data-mtype="figure-name">
-        <img src="./apoioaobrasil.png" alt="Menu" />
+      <button class="btn btnFull btnActions btnFigure" data-mtype="figure-name">
+        <img alt="Menu" />
         <div>
           <p>Coloque seu</p>
           <span class="menuBtnDestaque">Nome</span>
         </div>
       </button>
-      <button class="btn btnFull btnActions" style="margin-bottom: 25px;" data-mtype="filter-photo">
-        <img src="./bannerInicialBrasil.png" alt="Menu" />
+      <button class="btn btnFull btnActions btnFilter" style="margin-bottom: 25px;" data-mtype="filter-photo">
+        <img alt="Menu" />
         <div>
           <p>Coloque sua</p>
           <span class="menuBtnDestaque">Foto</span>
@@ -86,7 +87,7 @@
       <canvas width="1080" height="1080"></canvas>
 
       <div class="form-input">
-        <input name="yourname" type="text" placeholder="Coloque seu nome aqui" accept="image/*" />
+        <input name="user" type="text" placeholder="Coloque seu nome aqui" accept="image/*" />
         <div>
           <button id="btnSave" class="btn btnSave btnActions" data-mtype="save">Salvar</button>
           <button id="btnShare" class="btn btnShare btnActions" data-mtype="share">Compartilhar</button>
@@ -95,11 +96,11 @@
 
       <footer>
         <a href="https://www.instagram.com/joaoeymard/" target="_blank">
-          <img src="img/instagram-logo.svg" />
+          <img src="assets/instagram-logo.svg" />
           <span>Feito por: @joaoeymard</span>
         </a>
         <a href="https://www.instagram.com/souocleison/" target="_blank">
-          <img src="img/instagram-logo.svg" />
+          <img src="assets/instagram-logo.svg" />
           <span>Desenhado por: @souocleison</span>
         </a>
       </footer>
