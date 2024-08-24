@@ -245,10 +245,10 @@ async function shareImage() {
             console.log("Compartilhado com sucesso!");
           })
           .catch((error) => {
-            alert("Erro ao compartilhar: ", error.message);
+            alert("Erro ao compartilhar: ", error.message || error);
           });
       } else {
-        alert("Não é possível compartilhar.");
+        alert("Navegador não suporta compartilhamento de arquivos.");
       }
     });
   } catch (error) {
@@ -257,7 +257,8 @@ async function shareImage() {
       fatal: false,
     });
     alert(
-      "Não foi possível compartilhar a imagem: " + (error.message || error)
+      "Tente outra vez! Aconteceu algo que impediu o compartilhamento: " +
+        (error.message || error)
     );
   }
 }
@@ -278,6 +279,9 @@ function saveImage() {
       description: "[fn:saveImage] " + (error.message || error),
       fatal: false,
     });
-    alert("Não foi possível baixar a imagem: " + (error.message || error));
+    alert(
+      "Tente outra vez! Aconteceu algo que impediu o download: " +
+        (error.message || error)
+    );
   }
 }

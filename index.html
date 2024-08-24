@@ -5,25 +5,25 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tô com Brasil</title>
+  <title>Molduras</title>
 
-  <meta name="title" content="Tô com Brasil" />
-  <meta name="description" content="Gere seu flyer personalizado com seu nome de apoio ao Brasil." />
+  <meta name="title" content="Molduras" />
+  <meta name="description" content="Gere seu flyer personalizado para você." />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://joaoeymard.github.io/tocombrasil/" />
-  <meta property="og:title" content="Tô com Brasil" />
-  <meta property="og:description" content="Gere seu flyer personalizado com seu nome de apoio ao Brasil." />
+  <meta property="og:url" content="https://joaoeymard.github.io/molduras/" />
+  <meta property="og:title" content="Molduras" />
+  <meta property="og:description" content="Gere seu flyer personalizado para você." />
   <meta property="og:image" itemprop="image"
-    content="https://joaoeymard.github.io/tocombrasil/metadataBrasil.png?v=2" />
+    content="https://joaoeymard.github.io/molduras/assets/imgEscolhaImagem.png?v=1" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://joaoeymard.github.io/tocombrasil/" />
-  <meta property="twitter:title" content="Tô com Brasil" />
-  <meta property="twitter:description" content="Gere seu flyer personalizado com seu nome de apoio ao Brasil." />
-  <meta property="twitter:image" content="https://joaoeymard.github.io/tocombrasil/metadataBrasil.png?v=2" />
+  <meta property="twitter:url" content="https://joaoeymard.github.io/molduras/" />
+  <meta property="twitter:title" content="Molduras" />
+  <meta property="twitter:description" content="Gere seu flyer personalizado para você." />
+  <meta property="twitter:image" content="https://joaoeymard.github.io/molduras/assets/imgEscolhaImagem.png?v=1" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,7 +38,10 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'UA-169842087-3');
+    var furl = window.location.href;
+    gtag('config', 'UA-169842087-3', {
+      'page_location': furl
+    });
   </script>
 
   <script src="./dbMolduras.js"></script>
