@@ -16,7 +16,7 @@ const molduras = [
     },
   },
   {
-    dominio: "44000",
+    dominio: "evaldofidelis44000",
     styleName: {
       translateX: 1080 / 2,
       translateY: 500,
@@ -25,10 +25,10 @@ const molduras = [
       color: "white",
     },
     imagens: {
-      figureName: "./imagens/moldura.jpg",
-      thumbnailName: "./imagens/moldura.jpg",
-      // figureFilter: "./imagens/mascaraBrasil.png",
-      // thumbnailFilter: "./imagens/metadataBrasil.png",
+      figureName: "./imagens/evaldofidelis44000texto.jpg",
+      thumbnailName: "./imagens/evaldofidelis44000texto.jpg",
+      figureFilter: "./imagens/evaldofidelis44000filtro.png",
+      thumbnailFilter: "./imagens/evaldofidelis44000filtro.png",
     },
   },
 ];
