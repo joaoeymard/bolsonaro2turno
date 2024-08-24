@@ -1,6 +1,6 @@
 const molduras = [
   {
-    dominio: "brancarangel",
+    dominio: "tocombrasil",
     styleName: {
       translateX: 1080 / 2,
       translateY: 335,
