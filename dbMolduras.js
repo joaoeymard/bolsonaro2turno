@@ -31,4 +31,18 @@ const molduras = [
       thumbnailFilter: "./imagens/evaldofidelis44000filtro.png",
     },
   },
+  {
+    dominio: "brancarangel22999",
+    styleName: {
+      translateX: 1080 / 2,
+      translateY: 500,
+      rotate: 0,
+      background: "#0c67ce",
+      color: "white",
+    },
+    imagens: {
+      figureFilter: "./imagens/brancarangel22999_filtro_2.png",
+      thumbnailFilter: "./imagens/brancarangel22999_filtro_2.png",
+    },
+  },
 ];
