@@ -41,8 +41,8 @@ const molduras = [
       color: "white",
     },
     imagens: {
-      figureFilter: "./imagens/brancarangel22999_filtro_2.png",
-      thumbnailFilter: "./imagens/brancarangel22999_filtro_2.png",
+      figureFilter: "./imagens/brancarangel22999_filtro_2.PNG",
+      thumbnailFilter: "./imagens/brancarangel22999_filtro_2.PNG",
     },
   },
 ];
